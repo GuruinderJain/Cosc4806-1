@@ -11,7 +11,8 @@ session_start();
   
   <h1>Assignment1</h1>
     
-    <p> Welcome,Guruinder Jain</p>
+    <p> Welcome,Guruinder Jain </p>
+    <?php echo "Today is ", date('F j, Y') ?>
 <footer>
   <p><a href="/logout.php"> Click here to logout</a></p>
 </footer>

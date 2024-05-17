@@ -20,8 +20,9 @@ if ($valid_username == $username && $valid_password == $password){
   } else {
     $_SESSION['failed_attempts'] = $_SESSION['failed_attempts'] + 1;
   }
-  header( 'location: /login.php');
+
   echo " This is unsuccessful attempt number: " . $_SESSION['failed_attempts'];
+  
 }
 
 ?>
