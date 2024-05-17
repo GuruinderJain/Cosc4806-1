@@ -11,8 +11,9 @@ session_start();
   
   <h1>Assignment1</h1>
     
-    <p> Welcome, <?=$_SESSION['username'] ?></p>
-
-    <p><a href="/login.php">Click here to login </a></p>
+    <p> Welcome,Guruinder Jain</p>
+<footer>
+  <p><a href="/logout.php"> Click here to logout</a></p>
+</footer>
 </body>
 </html>
